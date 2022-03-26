@@ -11,15 +11,15 @@
     </head>
     <body>
         <div class="app">
-            <header>
-                <h1>Real time chat</h1>
+            <header class="main-header">
+                <h1 class="header-text">Real time chat</h1>
                 <input type="text" name="username" id="username" placeholder="Enter your nickname..."/>
             </header>
-            <div id="messages"></div>
+            <div id="messages" class="messages-container"></div>
 
             <form id="message_form">
                 <input type="text" name="message" id="message_input" placeholder="Write a message..."/>
-                <button type="submit" id="message_send">Send</button>
+                <button type="submit" id="message_send" class="button-send">Send</button>
             </form>
         </div>
 
